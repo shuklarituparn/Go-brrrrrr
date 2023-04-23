@@ -19,4 +19,6 @@ func main() {
 	fmt.Printf("%T \n", e)
 	fmt.Printf("%T \n", f)
 	fmt.Printf("%T \n", g)
+
+	//%T shows the type of the variables
 }
