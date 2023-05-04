@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var name = "Todd"
+	var name = "Rituparn"
 	fmt.Println("Hello ", name)
 }
