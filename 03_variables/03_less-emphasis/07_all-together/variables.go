@@ -1,4 +1,5 @@
-package main
+package main //tells the compiler that package should compile as an executable
+//package lib tells the compiler that package should compile as a shared lib
 
 import "fmt"
 
@@ -6,12 +7,13 @@ var a = "this is stored in the variable a"     // package scope
 var b, c string = "stored in b", "stored in c" // package scope
 var d string                                   // package scope
 
+// All the variables declared above the function declaration can be used in entire program
 func main() {
 
 	d = "stored in d" // declaration above; assignment here; package scope
 	var e = 42        // function scope - subsequent variables have func scope:
 	f := 43
-	g := "stored in g"
+	g := "stored in g" //declared in func, can be used in the func only
 	h, i := "stored in h", "stored in i"
 	j, k, l, m := 44.7, true, false, 'm' // single quotes
 	n := "n"                             // double quotes
