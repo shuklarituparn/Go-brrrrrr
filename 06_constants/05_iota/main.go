@@ -14,6 +14,7 @@ const (
 	f        // 2
 )
 
+// after each const declaration iota values resets so d,e,f, will again start from 0
 func main() {
 	fmt.Println(a)
 	fmt.Println(b)

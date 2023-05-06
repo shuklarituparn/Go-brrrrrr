@@ -8,6 +8,7 @@ const (
 	c = iota * 10 // 2 * 10
 )
 
+// we can use iota value to manipulate the value of const variables
 func main() {
 	fmt.Println(b)
 	fmt.Println(c)
