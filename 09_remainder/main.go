@@ -11,11 +11,17 @@ func main() {
 		fmt.Println("Even")
 	}
 
-	for i := 1; i < 70; i++ {
+	/*	for i := 1; i < 70; i++ {
 		if i%2 == 1 {
 			fmt.Println("Odd")
 		} else {
 			fmt.Println("Even")
+		}
+	}*/
+
+	for i := 1; i < 50; i++ { //loop to print the odd number before 50
+		if i%2 != 0 {
+			fmt.Printf("%d is an odd number\n", i)
 		}
 	}
 }
