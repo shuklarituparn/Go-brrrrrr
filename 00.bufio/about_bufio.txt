@@ -1,0 +1,20 @@
+Here are some common methods provided by the bufio package in Go for reading input:
+
+    NewScanner: This function returns a new Scanner object that can be used to scan input from a source.
+    The Scanner object provides methods like Scan() and Text() to read input line by line or word by word.
+
+    NewReader: This function returns a new Reader object that reads data from an input stream like a file or a socket.
+    The Reader object provides methods like Read() and ReadString() to read input in chunks or lines.
+
+    Scan(): This method of the Scanner object reads the next token from the input, which by default is a line of text,
+    and returns true if a token was found. The token can be retrieved using the Text() method.
+
+    Read(): This method of the Reader object reads up to len(p) bytes of data from the input stream into the byte slice
+     p, and returns the number of bytes read. If the input stream is empty or reaches the end, it returns an io.EOF error.
+
+    ReadString(): This method of the Reader object reads a string of characters from the input stream until it
+    encounters the given delimiter, and returns the string read up to but not including the delimiter.
+    If the input stream is empty or reaches the end before the delimiter is encountered, it returns an io.EOF error.
+
+These are just a few of the methods provided by the bufio package. There are several other useful methods like Peek(),
+ UnreadByte(), Write(), and more that can be used to read and write input in different formats and from different sources.

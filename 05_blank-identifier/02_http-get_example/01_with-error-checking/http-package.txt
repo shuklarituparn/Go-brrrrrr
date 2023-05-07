@@ -1,0 +1,30 @@
+The net/http package in Go provides a set of functions and types for implementing HTTP clients and servers.
+
+Here are some of the important types and methods provided by this package:
+
+    http.Client: This is the primary type for making HTTP requests. It provides methods such as Get(), Post(),
+    and Do() for making GET, POST, and other types of requests, respectively.
+
+    http.NewRequest(): This function creates a new HTTP request. You can specify the HTTP method, URL, headers,
+    and body using this function.
+
+    http.ResponseWriter: This is an interface that represents the response writer for an HTTP server. It provides
+    methods for writing response headers and response body.
+
+    http.Request: This is a struct that represents an HTTP request. It provides fields for the HTTP method, URL,
+     headers, and body.
+
+    http.ServeMux: This is a multiplexer for HTTP requests. It maps incoming requests to their corresponding
+    handlers based on the request path.
+
+    http.HandleFunc(): This function registers a handler function for a specific path pattern on a ServeMux.
+
+    http.FileServer(): This function creates an http.Handler that serves static files from a specific directory.
+
+    http.Redirect(): This function sends an HTTP redirect to the client.
+
+    http.Error(): This function sends an HTTP error response to the client.
+
+These are just some of the types and methods provided by the net/http package in Go. The package provides many more
+functions and types for implementing HTTP clients and servers, and it is a powerful tool for building web applications
+in Go.
