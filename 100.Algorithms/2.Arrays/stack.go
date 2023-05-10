@@ -17,7 +17,7 @@ func create(stak *Stack) {
 
 func Display(stak Stack) {
 	for i := stak.top; i >= 0; i-- { //looping through the stack
-		fmt.Printf("%d ", stak.data[i]) //printing the value
+		fmt.Printf("%d ", stak.data[i]) //printing the value of stack
 	}
 	fmt.Println()
 }
