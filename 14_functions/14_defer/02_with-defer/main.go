@@ -12,5 +12,8 @@ func world() {
 
 func main() {
 	defer world()
-	hello()
+	hello() 
 }
+
+
+//the result is hello world as the world is deferred using the defer keyword

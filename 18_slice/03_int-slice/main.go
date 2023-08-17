@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	mySlice := make([]int, 0, 3)
+	mySlice := make([]int, 0, 3) //an int slice with capacity of 3 and initialized with 0
 
 	fmt.Println("-----------------")
 	fmt.Println(mySlice)

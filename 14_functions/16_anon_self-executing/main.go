@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	func() {
-		fmt.Println("I'm driving!")
+		fmt.Println("I'm driving!")  //anonymouse function
 	}()
 }

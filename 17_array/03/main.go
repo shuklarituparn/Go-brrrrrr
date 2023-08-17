@@ -11,9 +11,11 @@ func main() {
 		x[i] = i
 	}
 	for i, v := range x {
-		fmt.Printf("%v - %T - %b\n", v, v, v)
+		fmt.Printf("%v - %T - %b\n", v, v, v)   //%b to print binary
 		if i > 50 {
 			break
 		}
 	}
-}
+} 
+
+//

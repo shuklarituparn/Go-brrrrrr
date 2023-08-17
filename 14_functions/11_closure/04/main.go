@@ -4,7 +4,7 @@ import "fmt"
 
 func wrapper() func() int {
 	var x int
-	return func() int {
+	return func() int {   //we can return a function too
 		x++
 		return x
 	}

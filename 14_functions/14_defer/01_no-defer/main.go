@@ -11,6 +11,6 @@ func world() {
 }
 
 func main() {
-	world()
+	world()   //here we don't have the defer keyword here so it be called first
 	hello()
 }
